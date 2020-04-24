@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh console.log('sssss')
+                sh 'console.log('dfddd')'
             }
         }
     }
